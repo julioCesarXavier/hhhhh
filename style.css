@@ -84,11 +84,7 @@ h1{
         display: none;
     }
 
-    .corpo {
-        flex-direction: column;
-        align-items: center;
-        
-    }
+    
     
     .flex img{
         width: 50%;
@@ -101,6 +97,17 @@ h1{
 
     nav h2 {
         margin: auto;
+    }
+
+    .dupla {
+
+        flex-direction: column;
+
+    }
+
+    footer h1{
+        display: none;
+    
     }
 }
 
