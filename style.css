@@ -120,4 +120,8 @@ footer{
     
 }
 
+.dupla {
+    flex-direction: row;
+}
+
 
