@@ -45,7 +45,7 @@
     
 }
 
-.card h3, div{
+.card h3, div, h1{
     text-align: center;
 }
 
@@ -70,7 +70,15 @@
 }
 
 
-@media screen and (max-width: 1296px) {
+h1{
+    font-family: garamond;
+}
+
+.card div{
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1000px) {
 
     .imagem {
         display: none;
@@ -79,12 +87,30 @@
     .corpo {
         flex-direction: column;
         align-items: center;
+        
     }
     
     .flex img{
         width: 50%;
         margin: auto;
     }
+
+    nav li{
+        display: none;
+    }
+
+    nav h2 {
+        margin: auto;
+    }
+}
+
+
+footer{
+    background-color: gray;
+    margin-top: 20px;
+    width: 100%;
+    padding: 0;
+    
 }
 
 
