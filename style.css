@@ -30,10 +30,11 @@
 
 .card{
     width: 180px;
-    height: 100%;
+    height: 50;
     border-radius: 12px;
     box-shadow: 4px 4px 12px #aaa;
     margin-right: 20px;
+
 
 }
 
@@ -99,29 +100,60 @@ h1{
         margin: auto;
     }
 
-    .dupla {
+    
 
+    .card img {
+        margin-top: 15px;
+    }
+
+    .rodapé {
+        flex-direction: column;
+        
+    }
+
+    .corpo{
         flex-direction: column;
 
     }
-
-    footer h1{
-        display: none;
     
+    .card{
+        margin: auto;
+        width: 300px;
+        height: 330px;
     }
-}
 
+    
 
-footer{
-    background-color: gray;
-    margin-top: 20px;
-    width: 100%;
-    padding: 0;
     
 }
 
-.dupla {
-    flex-direction: row;
+
+
+
+
+
+
+.rodapé {
+    height: 100%;
+    background-color: #C4D9EE;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapé img {
+    width: 25px;
+    height: 25px;
+    margin-right: 25px;
+}
+
+.rodapé div {
+    margin: 40px;
 }
 
 
+
+body {
+    margin: 0;
+    padding: 0;
+}
